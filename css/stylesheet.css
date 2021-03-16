@@ -1,0 +1,55 @@
+* {
+     padding:0;
+     margin: 0;
+     box-sizing: border-box;
+     /* transition: all 500ms ease-in-out; */
+  }
+
+  .title{
+      font-size: 1.6rem;
+      height: 1.6rem;
+      color: rgb(236, 236, 236);
+  }
+
+  .content{
+      margin-top: 0.8rem;
+      background-color: violet;
+  }
+  
+  .page_one ,.page_two, .page_three {
+      padding: 0.5rem;
+      position: fixed;
+      width: 100%;
+  }
+
+  .page_one  {
+     position: fixed;
+     background-color: rgb(27, 27, 27);
+     top: 0;
+     height: 150vh;
+     width: 100%;
+     z-index: 0;
+  }
+
+  .page_two {
+     position: fixed;
+     top: calc(100vh - 5rem);
+     height: calc(100vh - 3rem);
+     width: 100%;
+     background-color: rgb(15, 15, 15);
+     /*margin-top: 90vh;*/
+     /* border-top: 1px solid white; */
+     z-index: 1;
+  }
+  
+  .page_three {
+     position: fixed;
+     top: calc(100vh - 2.5rem);
+     height: calc(100vh - 3rem);
+     width: 100%;
+     background-color:black;
+     /* border-top: 1px solid white; */
+     /*margin-top: 90vh;*/
+     z-index: 2;
+  }
+  
