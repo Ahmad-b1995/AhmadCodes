@@ -1,5 +1,6 @@
 /* base (mobile first) */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 * {
     /* font-family: 'Roboto', 'sans-serif'; */
     padding: 0;
@@ -20,13 +21,13 @@ body {
 }
 
 .title * {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: rgb(240, 240, 240);
 }
 
 .waving_hand_emoji {
     padding-left: 0.5rem;
-    height: 2.6rem;
+    height: 2rem;
 }
 
 .content {
@@ -70,13 +71,13 @@ body {
 }
 
 .about_me h1 {
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding-bottom: 0.6rem;
 }
 
 .about_me p {
-    font-size: 0.95rem;
-    font-weight: 100;
+    font-size: 0.9rem;
+    font-weight: 300;
     line-height: 1.45rem;
 }
 
