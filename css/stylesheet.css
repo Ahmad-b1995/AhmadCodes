@@ -48,9 +48,19 @@
 .about_me {
     flex: 1;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
     margin-top: 1rem;
+}
+
+.about_me h1 {
+    font-size: 1.3rem;
+    padding-bottom: 0.6rem;
+}
+
+.about_me p {
+    line-height: 1.45rem;
 }
 
 .page_one,
