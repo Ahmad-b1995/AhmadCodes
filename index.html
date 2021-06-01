@@ -2,32 +2,34 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/stylesheet.css" />
+    <script type="text/javascript" src="./js/javascript.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AhmadCodes</title>
 </head>
 
 <body>
-
-
     <section class="page_one">
         <h1 class="title">Hello World 👋🏼</h1>
         <div class="content">
-            <video class="ahmad_stop_motion" width="800" height="530" src="./assets/videos/ahmad.mp4"></video> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cum dolores error, fuga sed ut. Accusantium, aliquam commodi, eaque expedita
-            <p class="about_me">iusto, libero maxime neque nihil optio quaerat reprehenderit saepe tempora.</p>
+            <div class="stopmotion_container">
+                <video class="ahmad_stop_motion" width="800" height="530" src="./assets/videos/ahmad.mp4" autoplay muted></video>
+            </div>
+            <p class="about_me">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit repellendus voluptate aliquid, omnis numquam nemo excepturi inventore cumque tenetur cum odit, doloribus doloremque veniam consequuntur enim eaque ex, placeat animi.
+            </p>
         </div>
     </section>
 
-
-    <section class="page_two" @click="decrease_top('two')">
+    <section class="page_two">
         <h1 class="title">about me</h1>
         <div class="content">
             fuga sed ut. Accusantium, aliquam commodi, eaque expedita iusto, libero maxime neque nihil optio quaerat reprehenderit saepe tempora.
         </div>
     </section>
-    <section class="page_three" @click="decrease_top('three')">
+    <section class="page_three">
         <h1 class="title">about me</h1>
         <div class="content">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cum dolores error, fuga sed ut. Accusantium, aliquam commodi, eaque expedita iusto, libero maxime neque nihil optio quaerat reprehenderit saepe tempora.

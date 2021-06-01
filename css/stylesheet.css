@@ -4,31 +4,42 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* transition: all 500ms ease-in-out; */
+    font-size: 1.1rem;
+    color: rgb(201, 201, 201);
 }
 
 .title {
     font-size: 2rem;
     height: 1.6rem;
-    color: rgb(236, 236, 236);
+    color: rgb(240, 240, 240);
 }
 
 .content {
     display: flex;
     flex-direction: column;
-    margin-top: 0.8rem;
-    height: calc(100vh - 9rem);
+    margin-top: 3rem;
+    padding: 0.5rem;
+    height: calc(100vh - 13rem);
+}
+
+.stopmotion_container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ahmad_stop_motion {
-    flex: 1;
     width: 100%;
-    background-color: maroon;
+    height: auto;
 }
 
 .about_me {
     flex: 1;
-    background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
 }
 
 .page_one,
