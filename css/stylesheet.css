@@ -9,9 +9,19 @@
 }
 
 .title {
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.title * {
     font-size: 2rem;
-    height: 1.6rem;
     color: rgb(240, 240, 240);
+}
+
+.waving_hand_emoji {
+    padding-left: 0.5rem;
+    height: 2.6rem;
 }
 
 .content {
