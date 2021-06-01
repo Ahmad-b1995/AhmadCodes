@@ -3,7 +3,6 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="./css/stylesheet.css" />
-    <script type="text/javascript" src="./js/javascript.js"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,13 +10,19 @@
 </head>
 
 <body>
+    <!-- <video id="myAudio" controls>
+      <source src="./assets/videos/ahmad.mp4" />
+    </video> -->
+
     <section class="page_one">
         <h1 class="title">Hello World 👋🏼</h1>
         <div class="content">
             <div class="stopmotion_container">
                 <div class="stopmotion_inside_container">
                     <img class="replay_btn" src="./assets/icons/replay_btn.png" />
-                    <video class="ahmad_stop_motion" width="800" height="530" src="./assets/videos/ahmad.mp4" autoplay muted></video>
+                    <video id="ahmad_stop_motion" class="ahmad_stop_motion" onclick="show_replay_btn()" width="800" height="530" autoplay muted>
+              <source src="./assets/videos/ahmad.mp4" type="video/mp4" />
+            </video>
                 </div>
             </div>
             <p class="about_me">
@@ -39,5 +44,6 @@
         </div>
     </section>
 </body>
+<script type="text/javascript" src="./js/javascript.js"></script>
 
 </html>
