@@ -13,7 +13,7 @@
 
   .content{
       margin-top: 0.8rem;
-      background-color: violet;
+      /* background-color: violet; */
   }
   
   .page_one ,.page_two, .page_three {
